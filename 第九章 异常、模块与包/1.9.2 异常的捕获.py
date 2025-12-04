@@ -92,9 +92,9 @@ except Exception as e:
     f = open(r"E:\python练习\python学习\第九章 异常、模块与包\tset.txt", "w", encoding="utf-8")
 else:
     print("没有异常！")
-# finally:
-#     print("我是finally，有没有异常我都要执行")
-#     f.close()
+finally:
+    print("我是finally，有没有异常我都要执行")
+    f.close()
 
 """
 - 总结
