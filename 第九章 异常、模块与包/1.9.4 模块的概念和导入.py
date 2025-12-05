@@ -34,10 +34,10 @@ import 模块名1, 模块名2
 模块名.功能名()
 """
 # 案例：使用import导入time模块使用sleep功能（函数）
-# import time # 导入python内置的time模块（time.py这个代码文件）
-# print("你好")
-# time.sleep(5)   # 通过.就可以使用模块内部全部功能（类、函数、变量）
-# print("楠楠")
+import time # 导入python内置的time模块（time.py这个代码文件）
+print("你好")
+time.sleep(5)   # 通过.就可以使用模块内部全部功能（类、函数、变量）
+print("楠楠")
 
 """
 - from 模块名 import 功能名
@@ -46,10 +46,10 @@ from 模块名 import 功能名
 功能名()
 """
 # 案例：使用from导入time的sleep功能（函数）
-# from time import sleep
-# print("你好")
-# sleep(5)
-# print("楠楠")
+from time import sleep
+print("你好")
+sleep(5)
+print("楠楠")
 
 """
 - from 模块名 import*
