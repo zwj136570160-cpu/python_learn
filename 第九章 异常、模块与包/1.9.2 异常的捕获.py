@@ -47,12 +47,12 @@ except:
 ② 一般try下方只放一行尝试执行的代码
 """
 # 捕获多个异常
-try:
-    print(name)
-    # 1 / 0
-except NameError as e:
-    print("出现了变量未定义的异常")
-    print(e)
+# try:
+#     print(name)
+#     # 1 / 0
+# except NameError as e:
+#     print("出现了变量未定义的异常")
+#     print(e)
 
 # 当捕获多个异常时，可以把要捕获的异常类型的名字，放到except后，并使用元组的方式进行书写
 try:
