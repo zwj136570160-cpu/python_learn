@@ -24,7 +24,6 @@ set_global_opts方法
 # 导包，导入line功能构建折线图对象
 from pyecharts.charts import Line
 from pyecharts.options import TitleOpts, LegendOpts, ToolboxOpts, VisualMapOpts
-from pyecharts.charts import Bar
 
 # 得到折线图对象
 Line = Line()
