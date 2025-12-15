@@ -33,4 +33,3 @@ util.dp(
     date_idx=314,
     data_idy=314,
     state="美国"
-)
