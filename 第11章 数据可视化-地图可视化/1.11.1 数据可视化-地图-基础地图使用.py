@@ -36,6 +36,6 @@ my_map = (
     )
     #   绘图
     .render(
-        path="测试地图.html"
+        path="1.11.1测试地图.html"
     )
 )
