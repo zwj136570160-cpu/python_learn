@@ -57,7 +57,7 @@ def dp(fp, no_json, index, date_idx, data_idy, state):
         ),
     )
     #   生成图标
-    Line.render(path="2020年美日印三国确诊人数对比折线图")
+    Line.render(path="2020年美日印三国确诊人数对比折线图.html")
 
 if __name__ == "__main__":
     dp(
