@@ -21,7 +21,7 @@ province_data_list = data["areaTree"][0]["children"]
 data_list = [] #    绘图需要使用的数据
 for province_data in province_data_list:
     province_name = province_data["name"] # 省份名称
-    #   使用ant()方法判断province_name结尾是否包含有"省", "市", "自治区", "特别行政区"，如没有可直接加上
+    #   使用any()方法判断province_name结尾是否包含有"省", "市", "自治区", "特别行政区"，如没有可直接加上
     no_need_suffix = ["省", "市", "自治区", "特别行政区"]
     if not any(province_name.endswith(suffix) for suffix in no_need_suffix):
         province_name += "省"
