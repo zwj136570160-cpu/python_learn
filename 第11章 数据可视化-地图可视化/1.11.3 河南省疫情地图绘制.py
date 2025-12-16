@@ -32,7 +32,7 @@ hen_epidemic_map = (
         maptype="河南"
     )
     #   设置全局选项
-.set_global_opts(
+    .set_global_opts(
         title_opts=TitleOpts(
             title="河南省疫情地图"
         ),
