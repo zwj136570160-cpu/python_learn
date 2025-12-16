@@ -7,7 +7,7 @@ from pyecharts.charts import Map
 from pyecharts.options import VisualMapOpts, TitleOpts
 
 #   读取数据
-with open(r"E:\python练习\python学习\第11章 数据可视化-地图可视化\1.11.2 全国疫情地图构建\疫情.txt", "r", encoding="utf-8") as f:
+with open(r"/第11章 数据可视化-地图可视化/疫情.txt", "r", encoding="utf-8") as f:
     data = f.read()
 #   将json文件转换为json
 data = json.loads(data)

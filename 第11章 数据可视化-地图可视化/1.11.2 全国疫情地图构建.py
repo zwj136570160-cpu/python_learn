@@ -7,7 +7,7 @@ from pyecharts.options import VisualMapOpts, TitleOpts
 
 #   读取数据文件
 with open(
-    file=r"E:\python练习\python学习\第11章 数据可视化-地图可视化\1.11.2 全国疫情地图构建\疫情.txt",
+    file=r"E:\python练习\python学习\第11章 数据可视化-地图可视化\疫情.txt",
     mode="r",
     encoding="utf-8"
 ) as f:
@@ -67,5 +67,5 @@ epidemic_map = (
             ]
         )
     )
-    .render("全国疫情地图.html")
+    .render("1.11.2全国疫情地图.html")
 )
