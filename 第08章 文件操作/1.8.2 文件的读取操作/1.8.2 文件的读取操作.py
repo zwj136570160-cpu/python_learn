@@ -44,7 +44,7 @@ a：打开一个文件用于追加。如果该文件已存在，新的内容将�
 """
 
 # 打开文件
-f = open(r"E:\python练习\python学习\第8章 文件操作\1.8.2 文件的读取操作\open函数测试.txt", "r", encoding ="utf-8")
+f = open(r"E:\python练习\python学习\第08章 文件操作\1.8.2 文件的读取操作\open函数测试.txt", "r", encoding ="utf-8")
 print(type(f))
 print("-------------------------------------------")
 
@@ -87,7 +87,7 @@ f.close()
 # 如果不调用close，同时程序没有停止运行，那么这个文件将一直被python程序占用
 
 # with open语法
-with open(r"E:\python练习\python学习\第8章 文件操作\1.8.2 文件的读取操作\open函数测试.txt", "r", encoding ="utf-8") as f:
+with open(r"E:\python练习\python学习\第08章 文件操作\1.8.2 文件的读取操作\open函数测试.txt", "r", encoding ="utf-8") as f:
     for line in f:
         print(f"每一行数据是：{line}")
 time.sleep(500000)     # 让程序睡眠50万秒
