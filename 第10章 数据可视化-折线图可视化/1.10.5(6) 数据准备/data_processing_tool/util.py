@@ -10,7 +10,7 @@ Line = Line()
 def dp(fp, no_json, index, date_idx, data_idy, state):
     """
     数据处理流程：读取→处理json数据→json转python→获取数据
-    :param fp: 文件路径地址(E:\python练习\python学习\第10章 python基础综合案例（数据可视化-折线图可视化）\1.10.5(6) 数据准备\折线图数据\美国.txt)
+    :param fp: 文件路径地址(E:\python练习\python学习\第10章 数据可视化-折线图可视化\1.10.5(6) 数据准备\折线图数据\美国.txt)
     :param no_json: 需要处理的json内容(jsonp_1629344292311_69436()
     :param index: 对符合json规范的内容进行切片下标(-2)
     :param date_idx: 日期数据下标(314)
@@ -61,7 +61,7 @@ def dp(fp, no_json, index, date_idx, data_idy, state):
 
 if __name__ == "__main__":
     dp(
-        fp=r"E:\python练习\python学习\第10章 python基础综合案例（数据可视化-折线图可视化）\1.10.5(6) 数据准备\折线图数据\美国.txt",
+        fp=r"E:\python练习\python学习\第10章 数据可视化-折线图可视化\1.10.5(6) 数据准备\折线图数据\美国.txt",
         no_json="jsonp_1629344292311_69436(",
         index=-2,
         date_idx=314,
